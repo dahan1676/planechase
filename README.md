@@ -1,2 +1,2 @@
 # About
-This is the backend to the planechase app. It was built on Pthon 3.9.6 and django 4.2.9
+Planechase is a multiplayer variant of Magic: the Gathering. Here are the [rules of the format](https://magic.wizards.com/en/formats/planechase) and here is the [app URL](https://planechase-2024.vercel.app/).
