@@ -10,7 +10,7 @@ If you want to just play with all of the planes, click "Give me all the planes!"
 
 ### Game Screen
 
-After pulling the list of planes, a session code will be appended onto the end of the URL. Sharing the URL with other people will allow you all to have a synchronized game. Changing the plane and rolling the die will be reflected on other players' sessions. The sync happens on an interval of 2 seconds (A future update will have an update to have this happen in real-time using websockets).
+After pulling the list of planes, a session code will be appended onto the end of the URL. Sharing the URL with other people will allow you all to have a synchronized game. Changing the plane and rolling the die will be reflected on other players' sessions. The sync happens on an interval of 2 seconds (A future update will have an update to have this happen in real-time).
 
 # Running the project locally
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
