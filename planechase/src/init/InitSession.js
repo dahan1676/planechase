@@ -65,7 +65,7 @@ export default function NewSession() {
   async function handleAll(inputPlaneList) {
     getAllPlanes().then(planeList => {
       console.log('planeList: ' + planeList.length);
-      if (inputPlaneList) {
+      if (inputPlaneList && inputPlaneList.length > 0) {
         planeList = planeList.filter(plane => {return inputPlaneList.indexOf(plane.name.toLowerCase()) > -1});
       }
       const shuffledPlanarDeck = makeShuffledPlanarDeck(planeList);
