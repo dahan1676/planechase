@@ -1,0 +1,27 @@
+.controls {
+    text-align: center;
+    position: relative;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 3em;
+}
+
+.buttons {
+    padding-top: 1em;
+    justify-content: space-between;
+}
+
+.button {
+    padding: 0 1em;
+    margin: 0 0.5em;
+
+    .reset-game {
+        margin: auto;
+    }
+}
+
+.result-img {
+    width: 5em;
+    height: 5em;
+    padding-top: 1em;
+}

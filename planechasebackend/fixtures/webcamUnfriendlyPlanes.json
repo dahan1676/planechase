@@ -1,0 +1,56 @@
+[
+	{
+		"model": "planechaseSessions.Plane",
+		"fields": {
+			"name": "The Matrix Of Time",
+			"url": "who-589-the-matrix-of-time",
+			"set": "who",
+			"webcamFriendly": false
+		}
+	},
+	{
+		"model": "planechaseSessions.Plane",
+		"fields": {
+			"name": "The Fertile Lands Of Saulvinia",
+			"url": "moc-50-the-fertile-lands-of-saulvinia",
+			"set": "mtg",
+			"webcamFriendly": false
+		}
+	},
+	{
+		"model": "planechaseSessions.Plane",
+		"fields": {
+			"name": "Norn's Seedcore",
+			"url": "moc-60-norn-s-seedcore",
+			"set": "mtg",
+			"webcamFriendly": false
+		}
+	},
+	{
+		"model": "planechaseSessions.Plane",
+		"fields": {
+			"name": "Interplanar Tunnel",
+			"url": "opca-2-interplanar-tunnel",
+			"set": "mtg",
+			"webcamFriendly": false
+		}
+	},
+	{
+		"model": "planechaseSessions.Plane",
+		"fields": {
+			"name": "Spatial Merging",
+			"url": "opca-7-spatial-merging",
+			"set": "mtg",
+			"webcamFriendly": false
+		}
+	},
+	{
+		"model": "planechaseSessions.Plane",
+		"fields": {
+			"name": "Windriddle Palaces",
+			"url": "opca-85-windriddle-palaces",
+			"set": "mtg",
+			"webcamFriendly": false
+		}
+	}
+]

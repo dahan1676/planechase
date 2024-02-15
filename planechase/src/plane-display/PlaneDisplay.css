@@ -1,0 +1,10 @@
+.plane {
+  text-align: center;
+  margin: auto;
+}
+
+.plane-img {
+  margin-top: 1em;
+  margin-right: 1em;
+  max-width: 80%;
+}

@@ -1,0 +1,14 @@
+.buttons {
+  padding-top: 1em;
+  justify-content: space-between;
+}
+
+button {
+  padding: 0 1em;
+  margin: 0 0.5em;
+}
+
+textarea {
+  width: 20em;
+  height: 10em;
+}

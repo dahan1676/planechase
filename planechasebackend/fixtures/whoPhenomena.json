@@ -1,0 +1,47 @@
+[
+	{
+	"model": "planechaseSessions.Plane",
+	"fields": {
+		"name": "Caught In A Parallel Universe",
+		"url": "who-572-caught-in-a-parallel-universe.jpg",
+		"set": "who",
+		"webcamFriendly": true
+	}
+},
+{
+	"model": "planechaseSessions.Plane",
+	"fields": {
+		"name": "Fixed Point In Time",
+		"url": "who-582-fixed-point-in-time.jpg",
+		"set": "who",
+		"webcamFriendly": true
+	}
+},
+{
+	"model": "planechaseSessions.Plane",
+	"fields": {
+		"name": "Human-Time Lord Meta-crisis",
+		"url": "who-585-human-time-lord-meta-crisis.jpg",
+		"set": "who",
+		"webcamFriendly": true
+	}
+},
+{
+	"model": "planechaseSessions.Plane",
+	"fields": {
+		"name": "Unleash The Flux",
+		"url": "who-605-unleash-the-flux.jpg",
+		"set": "who",
+		"webcamFriendly": true
+	}
+},
+{
+	"model": "planechaseSessions.Plane",
+	"fields": {
+		"name": "The Matrix Of Time",
+		"url": "who-589-the-matrix-of-time.jpg",
+		"set": "who",
+		"webcamFriendly": true
+	}
+}
+]
