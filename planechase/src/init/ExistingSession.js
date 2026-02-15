@@ -112,6 +112,7 @@ export default function Planechase() {
   //   }));
   // }
 
+  const { inputSessionCode } = useParams();
   const [activePlane, setActivePlane] = useState(null);
   const [fullPlanarDeck, setFullPlanarDeck] = useState([]);
   const [planarDeck, setPlanarDeck] = useState([]);
@@ -122,8 +123,6 @@ export default function Planechase() {
   const [timer, setTimer] = useState(0);
 
   useEffect(() => {
-    const { inputSessionCode } = useParams();
-
     function setStateInfo(session) {
       setSession(session);
       setActivePlane(session.plane);
