@@ -141,7 +141,7 @@ export default function Planechase() {
     setTimeout(() => {
       setTimer(timer + 1);
     }, '2000');
-  }, [timer]);
+  }, [timer, inputSessionCode, fullPlanarDeck.length]);
 
   return (
     <div className='container'>
