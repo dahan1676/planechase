@@ -1,5 +1,5 @@
 import React, {useState, useEffect} from 'react';
-import { useLocation, useParams } from 'react-router-dom';
+import { useParams } from 'react-router-dom';
 import { getSession, updateSession } from '../tools/fetches.js';
 import { dieOptions, planeImages } from '../tools/consts.js';
 import { getDieResultFromName, shuffleDeck } from '../tools/utils.js';
@@ -112,7 +112,6 @@ export default function Planechase() {
   //   }));
   // }
 
-  const { inputSessionCode } = useParams();
   const [activePlane, setActivePlane] = useState(null);
   const [fullPlanarDeck, setFullPlanarDeck] = useState([]);
   const [planarDeck, setPlanarDeck] = useState([]);
@@ -123,6 +122,8 @@ export default function Planechase() {
   const [timer, setTimer] = useState(0);
 
   useEffect(() => {
+    const { inputSessionCode } = useParams();
+
     function setStateInfo(session) {
       setSession(session);
       setActivePlane(session.plane);
