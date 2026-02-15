@@ -93,18 +93,6 @@ export default function Planechase() {
     }
   }
 
-  function setStateInfo(session) {
-    setSession(session);
-    setActivePlane(session.plane);
-    setRollResult(getDieResultFromName(session.rollResult));
-    setRollCost(session.rollCost);
-    setPlanarDeck(session.planarDeck);
-
-    if (fullPlanarDeck.length === 0) {
-      setFullPlanarDeck(session.planarDeck.slice(0));
-    }
-  }
-
   // const chatSocket = new WebSocket('ws://localhost:8000/session/');
 
   // chatSocket.onmessage = function(e) {
@@ -125,8 +113,6 @@ export default function Planechase() {
   // }
 
   const { inputSessionCode } = useParams();
-  const { state } = useLocation();
-  const [sets, setSets] = useState(['mtg', 'who']);
   const [activePlane, setActivePlane] = useState(null);
   const [fullPlanarDeck, setFullPlanarDeck] = useState([]);
   const [planarDeck, setPlanarDeck] = useState([]);
@@ -137,6 +123,18 @@ export default function Planechase() {
   const [timer, setTimer] = useState(0);
 
   useEffect(() => {
+    function setStateInfo(session) {
+      setSession(session);
+      setActivePlane(session.plane);
+      setRollResult(getDieResultFromName(session.rollResult));
+      setRollCost(session.rollCost);
+      setPlanarDeck(session.planarDeck);
+  
+      if (fullPlanarDeck.length === 0) {
+        setFullPlanarDeck(session.planarDeck.slice(0));
+      }
+    }
+
     getSession(inputSessionCode, planeImages).then(session => {
       setStateInfo(session);
     });
